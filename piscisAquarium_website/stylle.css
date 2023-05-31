@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+    position: relative;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.line{
+    height :1.5px;
+    width:100%;
+    background-color:#DBDCDD;
+}
+
+nav{
+    background-color: white;
+    color: black;
+    height: 25px;
+    font-size: 13px;
+    padding-top: 3px;
+}
+nav ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+nav ul li{
+    list-style: none;
+    padding-top: 3px;
+    text-align: center;
+    width: 100%;
+    transition: 0.1s;
+}
+
+nav ul li:hover{
+    color:#0077C0;
+    cursor:pointer;
+    height: 22px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.welcome{
+    height:490px;
+    font-weight: bold;
+    font-size: 24pt;
+    text-align: center;
+    color:white;
+    margin-top: 230px;
+}
+
+.content{
+    height: 450px;
+    width: 100%;
+    display:flex;
+    background-color: whitesmoke;
+}
+
+.judul{
+    padding-top:75px;
+    /* padding-left:120px; */
+}
+.judul h1{
+    padding-top: 45px;
+    padding-bottom: 15px;
+    font-size: 48px;
+}
+
+.judul p{
+    margin-top: 5px;
+}
+
+.img6{
+    padding-top: 90px;
+    padding-left:80px;
+}
+
+.judul2{
+    padding-top: 70px;
+    text-align: right;
+}
+.judul2 p{
+    margin-top: 5px;
+}
+
+.judul3{
+    margin-top: 70px;
+    text-align: right;
+}
+
+.content2{
+    background-color: #2F97EF;
+    height: 500px;
+    width: 100%;
+    display:flex;
+}
+
+.content2img{
+    padding-top: 90px; 
+    padding-left: 120px;
+    transition: transform.2s;
+}
+
+.content2img:hover{
+    transform: scale(1.03);
+}
+
+.judul4{
+    color: whitesmoke;
+    padding-top:65px;
+    /* padding-left:120px; */
+}
+
+.judul4 h1{
+    padding-top: 20px;
+    font-size: 48px;
+}
+
+.judul4 h2{
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.judul4 p{
+    margin-top: 5px;
+}
+
+.explore_more{
+    height:45px;
+    width: 150px;
+    border: 0px;
+    margin-top: 25px;
+    font-size: 14px; 
+    font-weight: bold; 
+    color: #0077C0;
+    transition: 0.2s;
+}
+
+.explore_more:hover{
+    background-color:#0256B0;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+footer{
+    color: black;
+    padding:50px;
+    height: 170px;
+    background-color: #0256B0;
+    color: white;
+}
+
+.bag1{
+    width: 600px;
+    float:left;
+}
+
+.logofooter{
+    padding-top:20px;
+    padding-bottom:20px;
+    height:31px;
+    width:100px;
+}
+
+.logofooter img{
+    padding-right:10px;
+    transition: transform .2s;
+}
+
+.logofooter img:hover{
+    transform: scale(1.1);
+}
+
+.bag2{
+    float:left;
+    padding-top:25px;
+}
+
+.bag2 p{
+    padding-top:8px;
+    transition: 0.1s;
+}
+
+.bag2 p:hover{
+    cursor:pointer;
+    font-weight: bold;
+}
+
+/* Explore */
+
+.welcome2{
+    height:320px;
+    font-weight: bold;
+    font-size: 24pt;
+    text-align: left;
+    color:white;
+    padding-top: 180px;
+    padding-left: 100px;
+}
+
+.animals1{
+    height: 610px;
+    width: 100%;
+    display:flex;
+    background-color: whitesmoke;
+}
+
+.animal_text1{
+    text-align: left;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.animal_text1 p{
+    margin-top: 3px;
+}
+
+.animals1 img{
+    margin-top: 100px;
+}
+
+.animals2{
+    height: 600px;
+    width: 100%;
+    background-color: #257786;
+}
+
+.animal_pic_left{
+    width:50%;
+    height: 100%;
+    background-image: url("img/img13.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    float:left;
+}
+
+.animal_text2{
+    color: white;
+    float:right;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 5%;
+}
+
+.animal_text2 p{
+    margin-top: 3px;
+}
+
+.animals3{
+    height: 950px;
+    width: 100%;
+    background-color: #044373;
+}
+
+.animal_text3{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    width:100%;
+}
+
+.animal_text3 p{
+    margin-top: 3px;
+}
+
+.animal_pic_bottom{
+    margin-top:100px;
+    width:100%;
+    height:500px;
+    background-image:url("img/img14.jpg"); 
+    background-size: 100%;
+}
+
+.animals4{
+    height: 600px;
+    width: 100%;
+    background-color: #020307;
+}
+
+.animal_pic_right{
+    width:50%;
+    height: 100%;
+    background-image: url("img/img15.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    float:right;
+}
+
+.animal_text4{
+    color: white;
+    float:left;
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 5%;
+}
+
+.animal_text4 p{
+    margin-top: 3px;
+}
+.animals5{
+    height: 500px;
+    width: 100%;
+    display:flex;
+    background-color: #01121c;
+}
+
+.ticket_type{
+    width:100%;
+    height:1050px; 
+    background-color: whitesmoke; 
+    padding-top: 60px;
+    text-align: center;
+}
+
+.tickets{
+    width: 1000px;
+    height: 260px;
+    margin:auto;
+    margin-top:50px;
+    background-color: #2c8ce0;
+    text-align: left;
+}
+
+.tickets_text{
+    height: 200px;
+    width: 680px;
+    float: right;
+    color:white;
+    margin:20px;
+}
+
+.tickets_text ul{
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.tickets_text h2{
+    text-align: right;
+}
+
+.tickets_text h3{
+    text-align: right;
+}
+
+.to_visit_us{
+    width:100%;
+    height:200px;
+    background-image: url("img/bgimg3.png");
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    padding-top:100px;
+
+}
+
+/* Visit Us */
+
+.form_back{
+    height: 600px;
+    padding:5%;
+}
+
+.form{
+    height:100%;
+    width:100%;
+    background-color: white;
+}
+
+.form_isi{
+    width:600px;
+}
+
+.plan_your_visit{
+    padding-left:60px;
+    padding-top:45px;
+}
+
+.personal{
+    padding-top: 30px;
+    padding-left:60px;
+}
+
+.ticket{
+    padding-top: 30px;
+    padding-left:60px;
+}
+
+.submit{
+    margin-top:30px;
+    margin-left:60px;
+    height: 40px;
+    width:120px;
+    border-radius: 0px;
+    border:0px;
+    font-size: 14px;  
+    color: #0256B0;
+    background-color: #DBDCDD;
+    transition: 0.1s;
+}
+
+.submit:hover{
+    background-color:#0256B0;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.input_box{
+    width: 280px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #0077C0;
+}
+
+.select_group{
+    margin-top: 10px;
+}
+
+.select_box{
+    height: 25px;
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #0077C0;  
+    margin-left:5px;
+}
